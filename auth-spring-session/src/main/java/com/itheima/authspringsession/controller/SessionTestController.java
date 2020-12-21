@@ -1,7 +1,9 @@
-package com.itheima.authcookiesession.controller;
+package com.itheima.authspringsession.controller;
 
-import com.itheima.authcookiesession.pojo.User;
-import org.springframework.web.bind.annotation.*;
+import com.itheima.authspringsession.pojo.User;
+import org.springframework.web.bind.annotation.CookieValue;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpSession;
 
